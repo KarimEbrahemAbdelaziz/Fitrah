@@ -1,0 +1,6 @@
+# Docs
+docs/.vitepress/cache
+docs/.vitepress/dist
+
+# Dummy Files
+*.DS_Store
