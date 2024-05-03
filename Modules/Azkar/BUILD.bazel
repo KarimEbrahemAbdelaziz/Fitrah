@@ -1,0 +1,31 @@
+load("@build_bazel_rules_apple//apple:ios.bzl", "ios_unit_test")
+load("@build_bazel_rules_swift//swift:swift.bzl", "swift_library")
+load("//Tools:shared.bzl", "versions")
+
+# Code
+
+swift_library(
+    name = "AzkarListLibrary",
+    srcs = glob(["Source/**/*.swift"]),
+    module_name = "AzkarList",
+    visibility = ["//Modules:default_library_visibility"],
+)
+
+# Tests
+
+swift_library(
+    name = "AzkarListTestsLibrary",
+    testonly = True,
+    srcs = glob(["Tests/**/*.swift"]),
+    module_name = "AzkarListTests",
+    deps = [
+        ":AzkarList",
+    ],
+)
+
+ios_unit_test(
+    name = "AzkarListTests",
+    minimum_os_version = versions.minimum_ios_version,
+    visibility = ["//Modules:default_test_visibility"],
+    deps = [":AzkarListTestsLibrary"],
+)

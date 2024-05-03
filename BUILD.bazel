@@ -1,0 +1,41 @@
+load(
+    "@rules_xcodeproj//xcodeproj:defs.bzl",
+    "top_level_target",
+    "xcodeproj",
+)
+load("@gazelle//:def.bzl", "gazelle", "gazelle_binary")
+load("@rules_swift_package_manager//swiftpkg:defs.bzl", "swift_update_packages")
+
+# SPM
+
+gazelle_binary(
+    name = "gazelle_bin",
+    languages = [
+        "@rules_swift_package_manager//gazelle",
+    ],
+)
+
+gazelle(
+    name = "update_build_files",
+    gazelle = ":gazelle_bin",
+)
+
+swift_update_packages(
+    name = "swift_update_pkgs",
+    gazelle = ":gazelle_bin",
+    generate_swift_deps_for_workspace = False,
+    update_bzlmod_stanzas = True,
+)
+
+# Xcode
+
+xcodeproj(
+    name = "xcodeproj",
+    project_name = "Fitrah",
+    top_level_targets = [
+        top_level_target(
+            "//App:Fitrah",
+            target_environments = ["simulator"],
+        ),
+    ],
+)

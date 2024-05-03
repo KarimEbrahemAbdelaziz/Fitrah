@@ -1,2 +1,13 @@
 # Dummy Files
 *.DS_Store
+.fleet/
+
+bazel-bin
+
+bazel-Fitrah
+
+bazel-out
+
+bazel-testlogs
+
+*.xcodeproj
