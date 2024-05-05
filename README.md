@@ -10,7 +10,7 @@ An **ad-free** **open-source** iOS application that focus on user privacy and UX
 
 [![License][repo_license_img]][repo_license_url]
 
-**&searr;&nbsp;&nbsp;The official repo for Fitrah iOS application&nbsp;&nbsp;&swarr;**
+**&searr;&nbsp;&nbsp;The official website for Fitrah iOS application&nbsp;&nbsp;&swarr;**
 
 [English][docs_url]
 
@@ -19,6 +19,8 @@ An **ad-free** **open-source** iOS application that focus on user privacy and UX
 [![Share on X][x_share_img]][x_share_url]
 [![Share on Telegram][telegram_share_img]][telegram_share_url]
 [![Share on WhatsApp][whatsapp_share_img]][whatsapp_share_url]
+
+<img src="https://raw.githubusercontent.com/KarimEbrahemAbdelaziz/Fitrah/main/docs/images/AppScreenShotOne.png" style="border-radius: 16px;" alt="App Image 1" width="30%"> <img src="https://raw.githubusercontent.com/KarimEbrahemAbdelaziz/Fitrah/main/docs/images/AppScreenShotTwo.png" style="border-radius: 16px;" alt="App Image 2" width="30%"> <img src="https://raw.githubusercontent.com/KarimEbrahemAbdelaziz/Fitrah/main/docs/images/AppScreenShotThree.png" style="border-radius: 16px;" alt="App Image 3" width="30%">
 
 </div>
 
@@ -97,9 +99,9 @@ Your PRs, issues & any words are welcome! Thank you 😘
 
 <!-- Social links -->
 
-[x_share_url]: https://x.com/intent/tweet?hashtags=Fitrah&text=A%20ad-free%20open-source%20iOS%20application%20for%20muslims.&url=https%3A%2F%2Fkarimebrahemabdelaziz.github.io%2FFitrah
-[telegram_share_url]: https://t.me/share/url?text=A%20ad-free%20open-source%20iOS%20application%20for%20muslims.&url=https%3A%2F%2Fkarimebrahemabdelaziz.github.io%2FFitrah
-[whatsapp_share_url]: https://api.whatsapp.com/send?text=A%20ad-free%20open-source%20iOS%20application%20for%20muslims.%20https%3A%2F%2Fkarimebrahemabdelaziz.github.io%2FFitrah
+[x_share_url]: https://x.com/intent/tweet?hashtags=Fitrah&text=An%20ad-free%20open-source%20iOS%20application%20for%20muslims.&url=https%3A%2F%2Fkarimebrahemabdelaziz.github.io%2FFitrah
+[telegram_share_url]: https://t.me/share/url?text=An%20ad-free%20open-source%20iOS%20application%20for%20muslims.&url=https%3A%2F%2Fkarimebrahemabdelaziz.github.io%2FFitrah
+[whatsapp_share_url]: https://api.whatsapp.com/send?text=An%20ad-free%20open-source%20iOS%20application%20for%20muslims.%20https%3A%2F%2Fkarimebrahemabdelaziz.github.io%2FFitrah
 [x_share_img]: https://img.shields.io/badge/x_(twitter)-black?style=for-the-badge&logo=x
 [telegram_share_img]: https://img.shields.io/badge/telegram-black?style=for-the-badge&logo=telegram
 [whatsapp_share_img]: https://img.shields.io/badge/whatsapp-black?style=for-the-badge&logo=whatsapp
