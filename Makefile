@@ -6,7 +6,7 @@ HOMEBREW := $(shell command -v brew 2>/dev/null)
 setup_for_development: \
 	check_for_bazelisk
 
-open_xcode_project:
+generate_xcode_project:
 	bazel run //:xcodeproj
 	
 build_main_app: 
@@ -19,7 +19,8 @@ build_azkar_module:
 check_for_bazelisk:
 	$(info Checking for Bazelisk ⚙️)
 ifeq ($(BAZELISK),)
-	$(error Bazelisk is not installed, please install the required dependencies ❌)
+	$(error Bazelisk is not installed, I'm gonna install it for you ... 👷)
+	brew install bazelisk
 else
 	$(info Bazelisk is installed ✅)	
 endif

@@ -11,8 +11,8 @@ hero:
       text: Github Repository
       link: https://github.com/KarimEbrahemAbdelaziz/Fitrah
     - theme: alt
-      text: Contribution Guides
-      link: /contribution_guides
+      text: Quick Start
+      link: /quick_start
 
 features:
   - title: Open Source Project
